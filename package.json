@@ -1,0 +1,24 @@
+{
+  "name": "radiobot",
+  "version": "1.0.0",
+  "description": "A simple radio bot for discord",
+  "main": "radio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImShEthan/Radio-bot.git"
+  },
+  "author": "Ethan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImShEthan/Radio-bot/issues"
+  },
+  "homepage": "https://github.com/ImShEthan/Radio-bot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.2.0",
+    "request": "^2.88.2"
+  }
+}
