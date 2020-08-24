@@ -15,8 +15,7 @@ let token = "TOKEN" // Your token
 
 client.on('ready', () => {
 	console.log("Bot ready")
-	client.user.setActivity("https://github.com/ImShEthan)
-	client.set
+	client.user.setActivity("https://github.com/ImShEthan")
 	client.guilds.cache.get(servid).channels.cache.get(chanid).join()
 	.then(connection => {
 		broadcast.play(flux);
